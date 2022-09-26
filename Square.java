@@ -1,25 +1,24 @@
 import java.util.Scanner;
 
-public class Length {
+public class Square {
     public static void main(String[] args) {
 
 
-        int a;
-        int b;
-
-
+        int length;
+        int breadth;
 
         // take the input of length and breath values from the user..
         //check it is square or not
 
-        Scanner number = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
        // System.out.println("enter your first value");
-        a = number.nextInt();
+
+        length= scanner.nextInt();
        // System.out.println("enter your second value");
-        b = number.nextInt();
+        breadth = scanner.nextInt();
 
 
-        if (a == b) {
+        if (length == breadth) {
 
             System.out.println("It is a square");
         } else {

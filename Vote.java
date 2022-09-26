@@ -1,21 +1,21 @@
 public class Vote {
     public static void main(String[] args) {
-        int[] bag = new int[10]; // declare int array variable of size 10
+        int[] age = new int[10]; // declare int array variable of size 10
         int count = 0;
 
-        bag[0] = 17;
-        bag[1] = 18;
-        bag[2] = 40;
-        bag[3] = 10;
-        bag[4] = 15;
-        bag[5] = 19;
-        bag[6] = 30;
-        bag[7] = 24;
-        bag[8] = 58;
-        bag[9] = 23;
+        age[0] = 17;
+        age[1] = 18;
+        age[2] = 40;
+        age[3] = 10;
+        age[4] = 15;
+        age[5] = 19;
+        age[6] = 30;
+        age[7] = 24;
+        age[8] = 58;
+        age[9] = 23;
 
         for (int i = 0; i < 10; i++) {
-            if (bag[i] > 18) {
+            if (age[i] > 18) {
                 count = count + 1;
             }
 

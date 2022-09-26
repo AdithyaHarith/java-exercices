@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class Summation {
     public static void main(String[] args) {
-        int a;
+        int n;
         int sum=0;
 
 
         Scanner s=new Scanner(System.in);
-        a=s.nextInt();
+        n=s.nextInt();
 
-        for(int i=1; i<=a; i++ ){
+        for(int i=1; i<=n; i++ ){
             sum=sum+i;
         }
         System.out.println(sum);
