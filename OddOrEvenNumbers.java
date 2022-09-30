@@ -1,32 +1,43 @@
+import java.util.Scanner;
+
 public class OddOrEvenNumbers {
     public static void main(String[] args) {
-        int[] bag = new int[10];
+        int number;
+        int result;
 
-        bag[0] = 4;
-        bag[1] = 5;
-        bag[2] = 6;
-        bag[3] = 33;
-        bag[4] = 40;
-        bag[5] = 34;
-        bag[6] = 8;
-        bag[7] = 89;
-        bag[8] = 56;
-        bag[9] = 76;
+        System.out.println("Enter the number:");
+        Scanner scan = new Scanner(System.in);
+        number = scan.nextInt();
+        // scan.close();
+        int n1=num(number % 2);
+        System.out.println(n1);
+    }
 
-        System.out.println("Odd numbers are:");
-        for (int i = 0; i <= 9; i++) {
-            if (bag[i] % 2 == 1) {
-                System.out.println(bag[i]);
-            }
+    public static int num(int n){
+
+        if(n==0){
+            System.out.println(n+ " is the Even Numbers");
         }
-        System.out.println("Even numbers are:");
-        for(int i=0; i<=9; i++){
-            if(bag[i]%2==0){
-                System.out.println(bag[i]);
-            }
+        else {
+            System.out.println(n+ "is the Odd Numbers ");
         }
+
+        return n;
     }
 }
+       /*  result = number % 2;
+
+        if(result==0){
+            System.out.println(number+ " is the Even Numbers");
+        }
+        else {
+            System.out.println(number+ "is the Odd Numbers ");
+        }
 
 
 
+
+
+
+    }
+}*/

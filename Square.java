@@ -25,5 +25,12 @@ public class Square {
             System.out.println("It is not a square");
         }
 
+        //public static int add(int l,int b){
+            if(length==breadth){
+
+            }
+
+        }
+
     }
-}
+//}
