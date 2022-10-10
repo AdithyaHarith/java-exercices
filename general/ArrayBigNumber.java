@@ -1,3 +1,5 @@
+package general;
+
 public class ArrayBigNumber {
     public static void main(String[] args) {
        int[] bag = new int[10];

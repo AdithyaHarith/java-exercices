@@ -1,3 +1,5 @@
+package general;
+
 import java.util.Scanner;
 
 //2*1=2

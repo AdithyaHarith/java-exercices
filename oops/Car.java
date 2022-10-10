@@ -3,8 +3,14 @@ package oops;
 public class Car {
 
     String name;
-    String brand;
+   // String brand;
 
+    public Car(String name){
+        this.name=name;
+    }
+    public String getName() {
+        return name;
+    }
     public void drive() {
         System.out.println(name+ " is driving");
     }

@@ -1,21 +1,23 @@
+package general;
+
 import java.util.Scanner;
 
 public class Summation {
     public static void main(String[] args) {
         int n;
-        int sum = 0;
+        int a = 0;
 
 //        Scanner s = new Scanner(System.in);
 //        n = s.nextInt();
 
-        sum = summation(10);
+        a = summation(10);
 
-        System.out.println(sum);
+        System.out.println(a);
 
 
-        sum = summation(20);
+        a = summation(20);
 
-        System.out.println(sum);
+        System.out.println(a);
 
     }
     public static int summation(int n) {

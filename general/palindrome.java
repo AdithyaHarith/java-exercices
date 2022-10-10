@@ -1,3 +1,5 @@
+package general;
+
 public class palindrome {
 
     public static void main(String[] args) {
@@ -8,7 +10,7 @@ public class palindrome {
         word[3]="kayal";
         word[4]="madam";
 
-        System.out.println("display palindrome:");
+        System.out.println("display general.palindrome:");
 
         for(int i=0; i<=4; i++){
 

@@ -1,3 +1,5 @@
+package general;
+
 public class Vote {
     public static void main(String[] args) {
         int[] age = new int[10]; // declare int array variable of size 10

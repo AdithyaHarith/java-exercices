@@ -6,18 +6,17 @@ public class Dog {
 
 
     // setters and getters
-
-    public void setName(String name) {
+    public Dog(String name, int age) {
         this.name = name;
+        this.age = age;
+
     }
+
 
     public String getName() {
         return name;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
 
     public void bark() {
         System.out.println(name + "is barking");
