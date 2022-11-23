@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class GreatestNumber {
     public static void main(String[] args) {
+
         int a;
         int b;
         System.out.println("Enter the first number:");
@@ -21,33 +22,45 @@ public class GreatestNumber {
         }
 
     }
-
-
 }
 
-   /* public static void main(String[] args) {
+//
+//        int a = 10;
+//        int b = 20;
+//        if (a > b) {
+//            System.out.println(a);
+//        } else {
+//            System.out.println(b);
+//        }
+//    }
+//
+//}
 
-        //take two int values from users
+//}
 
-        System.out.println("Enter first number:");
-        int number1 = new Scanner(System.in).nextInt();
-
-        System.out.println("Enter second number:");
-        int number2 = new Scanner(System.in).nextInt();
-
-        int max = big(number1, number2);
-
-        System.out.println(max);
-
-    }
-    public static int big(int s, int r) {
-        if (s > r) {
-            return s;
-        } else {
-            return r;
-        }
-    }
-}*/
-
+//    public static void main(String[] args) {
+//
+//        //take two int values from users
+//
+//        System.out.println("Enter first number:");
+//        int number1 = new Scanner(System.in).nextInt();
+//
+//        System.out.println("Enter second number:");
+//        int number2 = new Scanner(System.in).nextInt();
+//
+//        int max = big(number1, number2);
+//
+//        System.out.println(max);
+//
+//    }
+//    public static int big(int s, int r) {
+//        if (s > r) {
+//            return s;
+//        } else {
+//            return r;
+//        }
+//    }
+//}
+//
 
 
